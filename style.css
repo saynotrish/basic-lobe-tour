@@ -133,7 +133,6 @@
     justify-content: space-between;
 }
 
-
 .header .header__nav1 ul{
     display: flex;
 }
@@ -148,15 +147,10 @@
     font-weight: 600;
 }
 
-/* .header .header__nav2{
-    display: flex;
-    align-items: right;
-} */
-
-.header .header__nav2 ul{
+.header .header__nav2 ul,
+.header .toggle__menu{
     display: none;
 }
-
 /*-------------REPEATABLE PATTERNS--------------*/
 .btn{
     display:inline-block;
